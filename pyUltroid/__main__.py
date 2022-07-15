@@ -26,8 +26,8 @@ def main():
 
     # Option to Auto Update On Restarts..
     if (
-        udB.get_key("UPDATE_ON_RESTART")
-        and os.path.exists(".git")
+        udB.get_key("UPDATE_ON_RESTAR")
+        and os.path.exists("..git")
         and ultroid_bot.run_in_loop(updater())
     ):
         os.system(
